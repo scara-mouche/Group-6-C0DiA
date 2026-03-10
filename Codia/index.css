@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#0f172a;
+    color:white;
+}
+
+.main{
+    display:flex;
+    height:100vh;
+}
+.hello{
+    font-family: monospace;
+    font-size:20px;
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.welcome h1{
+    font-size:42px;
+    margin:0;
+}
+
+.tagline{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.motivation{
+    margin-top:25px;
+    color:#cbd5f5;
+}
+
+.motivation2{
+    margin-top:10px;
+    color:#94a3b8;
+}
+
+.start{
+    margin-top:20px;
+    font-weight:bold;
+}
+
+.welcome{
+    width:50%;
+    padding:80px;
+    background:#020617;
+}
+
+.welcome h1{
+    font-size:50px;
+}
+
+.tagline{
+    font-size:22px;
+    margin-top:20px;
+}
+
+.motivation{
+    margin-top:30px;
+    color:#cbd5f5;
+}
+
+.login{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+form{
+    width:300px;
+}
+
+.box input{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+}
+
+button{
+    width:110%;
+    padding:12px;
+    margin-top:15px;
+    background:#800000;
+    border:none;
+    color:white;
+}
+
+/* Align remember me and forgot password */
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+}
+
+.remember{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+/* Remove underline from forgot password */
+.forgot a{
+    text-decoration:none;
+    color:#38bdf8;
+    font-size:14px;
+}
+
+.forgot a:hover{
+    color:#60a5fa;
+}
+
+/* Style for create account button */
+.create button{
+    width:110%;
+    padding:12px;
+    margin-top:10px;
+    background:transparent;
+    border:2px solid #800000;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.create button:hover{
+    background:#800000;
+}
+
